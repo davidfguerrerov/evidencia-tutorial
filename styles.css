@@ -146,12 +146,20 @@ main {
   color: var(--gris10);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 8px 16px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
 .boton-tema:hover {
   background-color: var(--accent);
   color: var(--card);
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 
 .tema-oscuro {
