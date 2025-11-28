@@ -140,6 +140,26 @@ main {
 }
 
 
+/* Estilos boton oscuro/claro */
+.boton-tema {
+  background-color: var(--card);
+  color: var(--gris10);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.boton-tema:hover {
+  background-color: var(--accent);
+  color: var(--card);
+}
+
+.tema-oscuro {
+  --bg: #13141b;
+  --card: #1c1d26;
+  --gris10: #fff;
+  --gris20: #9193a5;
+}
 /* Media queries */
 @media (max-width: 600px) {
   .section-content {
